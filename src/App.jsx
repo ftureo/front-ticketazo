@@ -10,7 +10,7 @@ import RollingCode from "./Pages/RollingCode/Rolling.jsx";
 import EventsSection from "./Pages/HomeCards/HomeCards.jsx";
 import ContactPage from "./Pages/Contact/Contact.jsx";
 import UserDash from "./Pages/Dashboard/Dashboard.user.jsx";
-import Event from "./Pages/Dashboard/dashboard.event.jsx";
+import Event from "./Pages/Dashboard/Dashboard.event.jsx";
 import { ShoppingCardProvider } from "./contexts/ShoppingCardContext";
 import MerchCards from './Pages/Merchandising/MerchCards.jsx'; 
 import Login from "./Pages/login/Login.jsx";
