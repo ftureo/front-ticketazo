@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import CardItem from './CardItem';
-import './CardItem.css';
+import './cardItem.css';
 
 const CardList = ({ cards }) => {
   return (
