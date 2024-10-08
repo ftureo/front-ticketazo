@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import '../NavBar/NavBar.css';
+import './NavBar.css';
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faShoppingCart, faPhone, faAddressBook, faSearch, faShop ,faLaptopCode} from '@fortawesome/free-solid-svg-icons';
