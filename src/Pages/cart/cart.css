@@ -1,0 +1,88 @@
+#cart-wrapper {
+    padding: 150px;
+    background-color: #d6aaaf; /* Fondo claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    max-width: 970px; /* Ancho máximo */
+    margin: 50px auto; /* Centramos el carrito */
+    margin-top: 100px;
+    margin-bottom: 600px;
+}
+  
+#cart-title {
+    text-align: center; /* Centramos el título */
+    color: #561C24; /* Color del título */
+    padding: 40px;
+}
+  
+#cart-message {
+    color: #722A31;
+    padding: 30px;
+}
+  
+#items-list {
+    display: flex;
+    flex-direction: column;
+}
+  
+#single-item {
+    display: flex;
+    align-items: center; /* Alineamos el contenido */
+    margin-bottom: 20px;
+    padding: 10px; /* Añadimos un padding interno */
+    background-color: #ffffff; /* Fondo blanco para cada item */
+    border: 1px solid #dee2e6; /* Borde ligero */
+    border-radius: 5px; /* Bordes redondeados */
+}
+  
+#item-image {
+    width: 100px;
+    height: auto;
+    border-radius: 5px; /* Bordes redondeados para la imagen */
+}
+  
+#item-details {
+    margin-left: 20px;
+    flex: 1; /* Hace que tome el espacio restante */
+}
+  
+#item-quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Espaciado superior */
+}
+  
+#quantity-button {
+    background-color: #561C24; /* Color del botón */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    padding: 5px 10px; /* Padding interno */
+    margin: 0 5px; /* Espaciado lateral */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Manita al pasar el mouse */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+  
+#quantity-button:hover {
+    background-color: #722A31; /* Color al pasar el mouse */
+}
+  
+#cart-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+#cart-button {
+    background-color: #561C24; /* Color del botón */
+    color: #ffffff; /* Texto blanco */
+    border: none;
+    padding: 10px 15px; /* Padding interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Manita al pasar el mouse */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+  
+#cart-button:hover {
+    background-color: #722A31; /* Color al pasar el mouse */
+}

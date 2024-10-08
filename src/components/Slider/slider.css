@@ -1,0 +1,56 @@
+.carousel-item img { 
+    height: 500px; 
+    object-fit: cover; 
+  } 
+  
+ 
+  .slider-images { 
+    position: relative; 
+    max-width: 100%; 
+
+    overflow: hidden; 
+    margin-top: 5px;
+  } 
+  
+  .slide { 
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+  } 
+  
+  .slide.active { 
+    opacity: 1; 
+  } 
+  
+  .image { 
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+  } 
+  
+  
+  @media only screen and (max-width: 1200px) { 
+    .slider-images { 
+      height: 60vh; 
+    } 
+  } 
+  
+  @media only screen and (max-width: 768px) { 
+    .slider-images { 
+      height: 50vh; 
+    } 
+    .image { 
+      width: 100%; 
+    } 
+  } 
+  
+  @media only screen and (max-width: 480px) { 
+    .slider-images { 
+      height: 40vh; 
+    } 
+    .image { 
+      width: 100%; 
+    } 
+  }

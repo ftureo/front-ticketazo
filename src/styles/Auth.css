@@ -1,0 +1,97 @@
+/* Auth.css */
+
+/* Contenedor principal de login y register */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  background-image: url('https://musicodiy.cdbaby.com/wp-content/uploads/2018/12/concert-crowd-at-live-music-festival-m-1132x670-1.jpg');
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+
+
+}
+
+/* Estilos del formulario */
+.auth-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 24px;
+  color: #561C24; /* Color principal */
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.auth-form button {
+  background-color: #561C24;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-form button:hover {
+  background-color: #8b2a36;
+}
+
+/* Validaciones de contraseña */
+.password-validations ul {
+  list-style: none;
+  padding: 0;
+}
+
+.password-validations li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.password-validations li.valid {
+  color: green;
+}
+
+.password-validations li.invalid {
+  color: red;
+}
+
+/* Estilo del mensaje de error */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .auth-form {
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .auth-form {
+    padding: 1rem;
+  }
+}

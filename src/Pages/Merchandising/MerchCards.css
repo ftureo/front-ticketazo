@@ -1,0 +1,54 @@
+#merch-cards-container .merch-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+#merch-cards-container .merch-card:hover {
+  transform: translateY(-10px);
+}
+
+#merch-cards-container .merch-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  min-height: 200px;
+  margin-top: 40px;
+}
+
+#merch-cards-container .merch-card .price {
+  font-weight: bold;
+  color: #007bff;
+  font-size: 1.2em;
+  text-align: center;
+  margin-left: 42px;
+}
+
+#merch-cards-container .merch-card .buy-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  #merch-cards-container .merch-card img {
+    min-height: 150px;
+  }
+  #merch-cards-container .merch-card {
+    margin-top:-180px;
+  }
+}
+
+@media (max-width: 576px) {
+  #merch-cards-container .merch-card img {
+    min-height: 100px;
+  }
+  #merch-cards-container .merch-card {
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,71 @@
+.hero-section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/src/assets/images/RollingCode2.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #E8D8C4;
+    position: relative;
+    padding: 20px; 
+  }
+  
+  .content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%; 
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-link {
+    color: #561C24;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #E8D8C4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-link:hover {
+    background-color: #561C24;
+    color: #E8D8C4;
+  }
+  
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem; 
+    }
+  
+    p {
+      font-size: 1rem; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 2rem; 
+    }
+  
+    p {
+      font-size: 0.9rem; 
+    }
+  
+    .cta-link {
+      padding: 8px 15px; 
+    }
+  }

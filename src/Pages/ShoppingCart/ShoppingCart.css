@@ -1,0 +1,111 @@
+.shopping-cart {
+  padding: 40px; 
+  background-color: #561C24;
+  color: #E8D8C4;
+  border-radius: 16px; 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 900px; 
+  margin: 20px auto;
+  transition: all 0.3s ease-in-out;
+  flex-wrap: wrap;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; 
+  margin: 15px 0;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.cart-item:hover {
+  transform: scale(1.02);
+  background-color: #f1f1f1;
+}
+
+.cart-item-image {
+  width: 100px; /* Aumenta el tamaño de las imágenes */
+  height: auto;
+  border-radius: 8px;
+}
+
+.cart-item-details h3 {
+  font-size: 1.4em; /* Ajusta el tamaño del título */
+  margin: 0;
+}
+
+.cart-item-details p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-total {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.empty-cart-button, .finalize-button {
+  padding: 12px 25px;
+  background-color: #E8D8C4;
+  color: #561C24;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.empty-cart-button:hover, .finalize-button:hover {
+  background-color: #561C24;
+  color: #E8D8C4;
+}
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity-controls button {
+  padding: 12px 20px;
+  font-size: 1.2em;
+  background-color: #561C24;
+  color: #E8D8C4;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.quantity-controls span {
+  margin: 0 10px;
+  font-size: 1.2em;
+}
+.cart-actions {
+  display: flex;
+  justify-content: space-between; /* Para que los botones estén a los extremos */
+  align-items: center;
+  margin-top: 20px;
+}
+
+.empty-cart-button, .finalize-button {
+  padding: 12px 25px;
+  background-color: #E8D8C4;
+  color: #561C24;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex-grow: 1; /* Para que los botones crezcan igualmente */
+  margin: 0 10px; /* Espaciado entre los botones */
+}
+
+.empty-cart-button:hover, .finalize-button:hover {
+  background-color: #561C24;
+  color: #E8D8C4;
+}

@@ -1,0 +1,173 @@
+.container-dashboard {
+  padding: 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  max-width: 1000px;
+  margin: 0 auto; 
+}
+
+
+.username{
+  color: #333;
+  margin-bottom: 20px; 
+  text-align: center; 
+}
+
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px; 
+  text-align: left; 
+}
+
+
+form {
+  width: 70%; 
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: #f9f9f9; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+}
+
+input, select, textarea, button {
+  margin-bottom: 15px;
+  padding: 12px; 
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+
+.selectCategoria, .selectRol {
+  margin-bottom: 15px;
+  padding: 12px;
+  width: 100%;
+  max-width: 600px; 
+  margin: 0 auto; 
+  text-align: left; 
+  box-sizing: border-box;
+}
+
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  font-size: 16px; 
+  border-radius: 4px;
+  transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+
+button.btn-primary {
+  background-color: #561C24; 
+  color: #e8d8c4;
+  border: 2px solid #333; 
+}
+
+button.btn-primary:hover {
+  background-color: #e8d8c4; 
+  color: #561C24;
+  border-color: #561C24; 
+}
+
+
+button.btn-danger {
+  background-color: #e8d8c4; 
+  color: #561C24;
+  border: 2px solid #333; 
+}
+
+button.btn-danger:hover {
+  background-color: #561C24; 
+  color: #e8d8c4;
+  border-color: #e8d8c4; 
+}
+
+
+.table {
+  width: 50%; 
+  margin: 20px auto; 
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: center; 
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #561C24;
+  color: #e8d8c4;
+}
+
+
+button[type="submit"] {
+  background-color: #561C24; 
+  color: #e8d8c4; 
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+button[type="submit"]:hover {
+  background-color: #e8d8c4; 
+  color: #561C24; 
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .table {
+    width: 90%; 
+  }
+
+  .table th, .table td {
+    display: block;
+    width: 100%; 
+    box-sizing: border-box;
+    text-align: left; 
+    padding: 10px;
+  }
+
+  .table th {
+    background-color: #561C24; 
+    color: #e8d8c4;
+  }
+
+ 
+  .table td:before {
+    content: attr(data-label); 
+    font-weight: bold;
+    display: block;
+  }
+
+  form {
+    width: 90%; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .table td {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  input, select, textarea, button {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 100%; 
+}
+}
